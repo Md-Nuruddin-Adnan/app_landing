@@ -1,0 +1,185 @@
+/*=== global css start === */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+::after, ::before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+/*===// end of global css === */
+/*=== config css start === */
+@font-face {
+  font-family: Acumin-pro-regular;
+  src: url(../fonts/Acumin-RPro.otf);
+}
+
+@font-face {
+  font-family: Acumin-pro-bold;
+  src: url(../fonts/Acumin-BdPro.otf);
+}
+
+body {
+  font-family: Acumin-pro-regular;
+  font-size: 16px;
+  color: #666666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Acumin-pro-bold;
+  color: #333333;
+}
+
+p {
+  font-size: 16px;
+  color: #666666;
+}
+
+/*===// end of config css === */
+/*=== utility css start === */
+/*===// end of utility css === */
+/*=== home section start === */
+#home {
+  background: url(../images/bg.png) no-repeat left bottom/cover;
+  min-height: 100vh;
+}
+
+@media (max-width: 575px) {
+  #home {
+    background: url(../images/bg.png) no-repeat center center/cover;
+  }
+}
+
+#home .banner {
+  padding: 50px 15px 0 15px;
+}
+
+@media (max-width: 575px) {
+  #home .banner {
+    padding: 30px 15px 0 15px;
+  }
+}
+
+#home .banner .text-block {
+  padding: 120px 50px 40px 0;
+}
+
+@media (max-width: 991px) {
+  #home .banner .text-block {
+    padding: 40px 0px 40px 0;
+  }
+}
+
+#home .banner .text-block h1 {
+  font-size: 56px;
+}
+
+@media (max-width: 575px) {
+  #home .banner .text-block h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1399px) and (min-width: 576px) {
+  #home .banner .text-block h1 {
+    font-size: 46px;
+  }
+}
+
+#home .banner .text-block p {
+  font-size: 18px;
+  padding: 20px 0 30px 0;
+  line-height: 28px;
+}
+
+#home .banner .text-block .link a img {
+  max-width: 180px;
+  padding-right: 10px;
+}
+
+@media (max-width: 575px) {
+  #home .banner .text-block .link a img {
+    max-width: 140px;
+    padding-right: 0px;
+  }
+}
+
+#home .banner .img-block img {
+  max-width: 85%;
+  margin-right: auto;
+}
+
+/*===// end of home section === */
+/*=== term section start === */
+#term header {
+  padding: 10px 0;
+}
+
+#term header .logo img {
+  max-width: 80%;
+}
+
+#term header .link img {
+  max-width: 150px;
+}
+
+#term .banner {
+  padding: 40px 0 35px 0;
+  background-color: #263238;
+}
+
+#term .banner h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 1;
+}
+
+#term .term-main {
+  padding: 50px 0 20px 0;
+}
+
+#term .term-main ul li {
+  margin-bottom: 40px;
+}
+
+#term .term-main ul li h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/*===// end of term section === */
+/*=== footer section start === */
+#home .footer p {
+  color: #ffffff;
+  padding: 70px 0 30px 0;
+}
+
+@media (min-width: 992px) {
+  #home .footer p {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    padding: 70px 0 0px 0;
+  }
+}
+
+/*===// end of footer section === */

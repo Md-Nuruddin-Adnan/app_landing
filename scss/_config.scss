@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Acumin-pro-regular;
+  src: url(../fonts/Acumin-RPro.otf);
+}
+@font-face {
+  font-family: Acumin-pro-bold;
+  src: url(../fonts/Acumin-BdPro.otf);
+}
+
+body {
+  font-family: Acumin-pro-regular;
+  font-size: 16px;
+  color: #666666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Acumin-pro-bold;
+  color: #333333;
+}
+
+p{
+  font-size: 16px;
+  color: #666666;
+}
+
+
+
+$color-dark: #263238;
+$color-light: #c6d6cd;
+$color-white: #ffffff;
+$color-black: #000000;
