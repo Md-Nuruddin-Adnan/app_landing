@@ -168,18 +168,38 @@ p {
 /*=== footer section start === */
 #home .footer p {
   color: #ffffff;
-  padding: 70px 0 30px 0;
+  padding: 70px 0 0px 0;
 }
 
-@media (min-width: 992px) {
-  #home .footer p {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-    padding: 70px 0 0px 0;
-  }
+.s-link {
+  display: flex;
+  justify-content: center;
+}
+
+.s-link li {
+  padding: 10px;
+}
+
+.s-link li a {
+  font-size: 40px;
+  color: rgba(198, 214, 205, 0.6);
+  transition: all 0.2s linear;
+}
+
+.s-link li a:hover {
+  color: #c6d6cd;
+}
+
+#term .s-link li {
+  padding: 0 10px 10px 10px;
+}
+
+#term .s-link li a {
+  color: rgba(38, 50, 56, 0.8);
+}
+
+#term .s-link li a:hover {
+  color: #263238;
 }
 
 /*===// end of footer section === */
